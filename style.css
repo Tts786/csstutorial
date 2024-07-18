@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #7af2fb;
     /* background-image: url(images/banner.jpg); */
     background-repeat: no-repeat;
     /* background-position: center; */
@@ -30,7 +30,7 @@ h5 {
 
 .font-apply {
     font-size: 20px;
-    font-weight: 600;
+    font-weight:200;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
@@ -45,8 +45,13 @@ h5 {
 .decoration-apply {
     /* text-decoration: underline; */
     /* text-decoration: overline; */
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     /* text-decoration: none; */
+}
+
+.anchor{
+    text-decoration: none;
+    color: #000;
 }
 
 .text-atag-in-para {
@@ -66,48 +71,48 @@ h5 {
     font-style: italic;
     text-transform: uppercase;
     text-decoration: underline;
-    color: #66ff66;
+    color: #6300e4;
     background-color: peachpuff;
 }
 
 .play-with-letter {
     /* letter-spacing: 10px; */
-    /* word-spacing: 10px; */
-    /* line-height: 0px; */
+    /* word-spacing: 20px; */
+    /* line-height: 50px; */
     /* text-align: center; */
     /* text-align: left; */
     /* text-align: right; */
 }
 
-.change-w {
+/* .change-w {
     font-size: 50px;
     color: orchid;
     text-transform: uppercase;
-}
+} */
 
 ul {
-    /* list-style-type: square; */
+    /* list-style-type: disc; */
     /* list-style-image: url("images/right.png"); */
     /* list-style: none; */
-    list-style-position: inside;
+    /* list-style-position: inside; */
     /* list-style-position: outside; */
 }
 
-/* div.b-color {
+div.b-color {
     background-color: #88aaaa;
 }
 
 div.first {
-    opacity: 0.4;
-}
-
-div.second {
     opacity: 0.9;
 }
 
-div.third {
+div.second {
     opacity: 0.6;
-} */
+}
+
+div.third {
+    opacity: 0.2;
+}
 
 /* .bg-1{
           background-image: url("images/banner.jpg");
@@ -235,6 +240,8 @@ div.third {
 
 .test-media {
     font-size: 100px;
+    font-weight: 500;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -255,4 +262,44 @@ div.third {
         font-size: 100px;
         text-transform: capitalize;
     }
+}
+body{
+    background-color:#000 ;
+    /* background-image: url(images/1600w-eweyyMLqlDU.webp); */
+    background-repeat: no-repeat;
+    /* background-position:left; */
+    /* background-size: cover; */
+    background-size: cover;
+
+}
+
+body{
+    color: #b67afb;
+    height: 250px;
+    background-image: url(asset/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+hs{
+    color:
+     #fbb47a;
+
+    .testin
+    g{color:#000;}
+}
+#testing-parirl{
+    font-size: large;}
+
+.font-apply{
+    font: size 20px;;
+     font-weight: 400;
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: italic;
+}
+.tranformation-apply{
+/*   text-transform:uppercase*/
+   /*text-transform:lowercase*/
+   /*text-transform:capitalize */
+   /* text-transform:none */
 }
