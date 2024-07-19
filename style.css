@@ -1,13 +1,14 @@
 body {
     background-color: hsl(184, 94%, 73%);
     /* background-image: url(images/banner.jpg); */
+        /* background-position: center; */
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-size: cover; -->
+    background-size: cover; 
 }
 
 .bg-img{
-    color: #fff;
+   /* color: #fff;
     height: 250px;
     background-image: url(asset/bg.jpg);
     background-repeat: no-repeat;
@@ -35,21 +36,21 @@ h5 {
 }
 
 .tranformation-apply {
-    /* text-transform: uppercase; */
+     text-transform: uppercase; */
     /* text-transform: capitalize; */
     /* text-transform: lowercase; */
-    /* text-transform: none; */
-}
+    /* text-transform: none; */ }
+
 
 .decoration-apply {
-    /* text-decoration: underline; */
+    text-decoration: underline; */
     /* text-decoration: overline; */
     /* text-decoration: line-through; */
     /* text-decoration: none; */
 }
 
 .anchor{
-    text-decoration: none;
+  /*  text-decoration: none;
     color: #000;
 }
 
@@ -63,7 +64,7 @@ h5 {
     color: black;
 }
 
-.apply-all-ftd {
+/*.apply-all-ftd {
     font-size: 20px;
     font-weight: 600;
     font-family: cursive;
@@ -75,7 +76,7 @@ h5 {
 }
 
 .play-with-letter {
-    /* letter-spacing: 10px; */
+    /*letter-spacing: 10px; */
     /* word-spacing: 20px; */
     /* line-height: 50px; */
     /* text-align: center; */
@@ -97,7 +98,7 @@ ul {
     /* list-style-position: outside; */
 }
 
-div.b-color {
+/*div.b-color {
     background-color: #88aaaa;
 }
 
@@ -111,7 +112,7 @@ div.second {
 
 div.third {
     opacity: 0.2;
-} -->
+} 
 
 /* .bg-1{
           background-image: url("images/banner.jpg");
@@ -246,14 +247,14 @@ div.third {
 @media only screen and (max-width: 600px) {
     .test-media {
         font-size: 50px;
-    }
+    
 
     .psu-test::first-letter {
         color: blue;
         font-size: 100px;
         text-transform: capitalize;
-    }
-}
+
+
 
 @media only screen and (min-width: 600px) {
     .psu-test::first-letter {
@@ -261,44 +262,104 @@ div.third {
         font-size: 100px;
         text-transform: capitalize;
     }
-}
-body{
-    background-color:#000000 ;
-    /* background-image: url(images/1600w-eweyyMLqlDU.webp); */
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: cover;
-
-}
-
-
-body{
-    color: #b67afb;
+    body {
+        background-color: #fff;
+        /* background-image: url(images/banner.jpg); */
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        /* background-size: cover; */
+        background-size: cover;
+    }
+.bg-img{
+    color: #fff;
     height: 250px;
-    background-image: url(asset/asset/1600w-eweyyMLqlDU.webp);
+    background-image: url(images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px;
 }
-hs{
-    color:
-     #fbb47a;
 
-    .testin
-    g{color:#000000;}
-}
+h5{
+    color: red;}
+
+    .testin{
+    color:#000000;
+    }
+
 #testing-parirl{
     font-size: large;}
 
 .font-apply{
     font: size 20px;;
-     font-weight: 400;
+     font: weight 50px;;
      font-family: Arial, Helvetica, sans-serif;
      font-style: italic;
 }
-.tranformation-apply{
-/*   text-transform:uppercase*/
-   /*text-transform:lowercase*/
-   /*text-transform:capitalize */
-   /* text-transform:none */
+.tranformation-apply {
+text-transform:uppercase;
+text-transform:lowercase;
+text-transform:capitalize;
+text-transform:none;
+}
+.decoration-apply {
+    text-decoration: underline;
+    text-decoration: overline; 
+    text-decoration: line-through;
+    text-decoration: none; 
+}
+.text-atag-in-para {
+    text-decoration: none;
+    color: red;
+}
+
+.apply-style-to-atag {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.apply-all-ftd {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #66ff66;
+    background-color: peachpuff;
+}
+.play-with-letter {
+    letter-spacing: 22px;
+    word-spacing: 20px;
+    line-height: 0px;
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+}
+.change-w {
+    font-size: 50px;
+    color: orchid;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: square;
+    list-style-image: url("images/right.png"); */
+     list-style: none; 
+     list-style-position: inside; 
+     list-style-position: outside;
+}
+
+div.b-color {
+    background-color: #aa9c88;
+}
+
+div.first {
+    opacity: 0.1;
+}
+div.second {
+    opacity: 0.3;
+}
+
+div.third {
+    opacity: 0.6
 }
