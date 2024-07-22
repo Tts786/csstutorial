@@ -1,0 +1,30 @@
+.border-property {
+    /* border-style: dotted; */
+    /* border-style: solid; */
+    /* border-width: 5px; */
+    /* border-color: #000; */
+    /* border-radius: 10px; */
+    /* border: 10px solid red; */
+}
+
+.padding-margin-property {
+    border: 3px solid red;
+    /* margin apply on all side l r t b */
+    /* margin: 50px; */
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    /* margin apply to all side with different value t r b l */
+    /* margin: 90px 50px 100px 30px; */
+    /* margin apply with same value on tb and same value on lr .... tb lr */
+    /* margin: 100px 20px; */
+
+    /* padding: 50px; */
+    /* padding: 100px 50px;  */
+    /* padding: 100px 20px 50px 60px; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* padding-right: 30px; */
+    /* padding-left: 50px; */
+}
