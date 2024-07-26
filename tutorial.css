@@ -8,10 +8,17 @@
     /* position: absolute; */
     top: 5px;
     left: 5px
-    /* bottom: 100px;
+        /* bottom: 100px;
          left: 20px;
          right: 10px; */
 }
+
+.psu-test::first-letter {
+    color: #f32121;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
 .test-media {
     font-size: 100px;
 }
@@ -25,6 +32,7 @@
         color: blue;
         font-size: 100px;
         text-transform: capitalize;
+        background-image: asset/bg.jpg);
     }
 }
 
@@ -49,4 +57,4 @@
 /* @media only screen and (min-width: 992px) {...} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
+/* @media only screen and (min-width: 1
