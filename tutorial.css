@@ -13,7 +13,7 @@
          right: 10px; */
 }
 
-.psu-test::first-letter {
+/*.psu-test::first-letter {
     color: #f32121;
     font-size: 100px;
     text-transform: capitalize;
@@ -24,27 +24,18 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .test-media {
-        font-size: 50px;
-    }
-
-    .psu-test::first-letter {
-        color: blue;
-        font-size: 100px;
-        text-transform: capitalize;
-        background-image: asset/bg.jpg);
-    }
+body{
+    background-color: black;
+}
 }
 
 @media only screen and (min-width: 600px) {
-    .psu-test::first-letter {
-        color: green;
-        font-size: 100px;
-        text-transform: capitalize;
-    }
+  body{
+    background-color: #f32121;
+  }
 }
 
-/* Extra small devices (phones, 600px and down) */
+/*  Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {...} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
