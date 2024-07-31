@@ -1,5 +1,5 @@
 body {
-   background-color:rgb(102, 210, 237);
+ /*  background-color:rgb(102, 210, 237);
    /*  background-image: url(images/banner.jpg);*/
     background-repeat: no-repeat;
     background-position: center;
@@ -110,12 +110,14 @@ div.third {
     opacity: 0.6
 }
 .bg-1{
-    color: darkred;
-    font-size: 50px;
-    
+    color: #181515;
+    font-size:40px;
+    text-align: center;
 }
+
+
 .change-h{
-    font-size: 40px;
+    font-size: 400px;
 }
 
 .border-property {
@@ -155,7 +157,7 @@ display-apply {
 }
 
 .apply-position {
-    position: sticky;
+    position: fixed;
     /* position: absolute; */
     top: 50px;
     left: 5px;
@@ -242,11 +244,8 @@ display-apply {
 }
     @media only screen and (min-width: 600px) {
         body{
-         background-color:indigo-300;
-         
+
+         background-color:#20c997;
         }
       }
-   
-   
-    
-   
+     
